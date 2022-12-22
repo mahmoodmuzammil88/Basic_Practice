@@ -1,4 +1,4 @@
-// Q.average sum of Element of an array
+// 4. Average sum of elements of an array.
 // sum of array / length of array
 
 function ave(arr){

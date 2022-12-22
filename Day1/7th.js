@@ -1,5 +1,4 @@
-// Program to find the smallest number among three numbers.
-// let a = 10, b=2, c=15
+// 7. Program to find the smallest number among three numbers.
 function max(a,b,c){
 if(a<=b && a<=c){
     console.log("a is smallest")

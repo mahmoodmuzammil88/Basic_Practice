@@ -1,4 +1,4 @@
-// Q.program to reverse an array
+// 3. Program to reverse an array.
 // let a = [1,2,3,4,5]
 // a.reverse();
 // console.log(a)
