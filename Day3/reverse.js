@@ -1,12 +1,16 @@
-let arr = [5,4,12,4,5,4]
 
-function reverseA(arr){
+let arr = [1, 2, 3, 4, 5];
+
+console.log(arr);
+console.log(reverseA(arr));
+
+function reverseA(array) {
     let arr2 = [];
-
-    let n = arr.length-1
-    let ind = 0
-    for(i=n;i>=0;i--){
-        arr2[ind++] = arr[i]
+    let n = array.length;
+    let ind = 0;
+    for (let i = n - 1; i >= 0; i--) {
+        arr2[ind++] = array[i]; 
     }
     return arr2
-}console.log(reverseA(arr));
+
+}
