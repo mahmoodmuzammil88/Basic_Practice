@@ -20,11 +20,9 @@
 // console.log(6^3)
 
 // -------------------------------------------------------------
-// [9,5,0,3,9,0,3] uding this array write xor gate problem
-
+// [9,5,0,3,9,0,3] using this array 
 // function fun(arr) {
 //     let obj = {};
-  
 //     for (let i of arr) {
 //       obj[i] = obj[i] + 1 || 1;
 //     }
@@ -46,12 +44,15 @@
 //     }
 //     console.log(xor);
 //   }bitManupulationFindDublicate([1,33,4,33,5,4,1, 5,7])
-
 // ---------------------------------------------------------
 // linear search
+
 // function linear(arr, target){
 //     for(let i=0;i<arr.length;i++){
 //         if(arr[i]==target) return i
 //     }return -1
 // }console.log(linear([2,3,3,5,6,7],2))
 
+let a= 7
+let b= 9
+console.log(a|b)
